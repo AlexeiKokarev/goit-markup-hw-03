@@ -9,99 +9,110 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="nav-logo"><span class="nav-logo-colored">Web</span>Studio </a>
-            <ul class="navbar-item">
-                <li class="nav-list">
-                    <a class="nav-link current" href="./#">Студия</a></li>
-                <li class="nav-list">
-                    <a class="nav-link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="nav-list">
-                    <a class="nav-link" href="./#">Контакты</a></li>
+    <header class="top-section">
+        <div class="container container-flex">
+            <nav class="navbar">
+                <a href="#" class="nav-logo"><span class="nav-logo-colored">Web</span>Studio </a>
+                <ul class="navbar-item">
+                    <li class="nav-list">
+                        <a class="nav-link current" href="./#">Студия</a></li>
+                    <li class="nav-list">
+                        <a class="nav-link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link" href="./#">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts">
+                <li class="contacts-list">
+                    <a class="contact-link" href="info@devstudio.com"> info@devstudio.com 
+                        </a></li>
+                <li class="contacts-list">
+                    <a class="contact-link" href="+380961111111"> +38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contacts">
-            <li class="contacts-list">
-                <a class="contact-link" href="info@devstudio.com"> info@devstudio.com 
-                </a></li>
-            <li class="contacts-list">
-                <a class="contact-link" href="+380961111111"> +38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         <!--secctin1-->
         <section class="sections-dark">
-            <h1 class="titel-text">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="btn-primary">Заказать услугу</button>
+            <div class="container">
+                <h1 class="titel-text">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="btn-primary">Заказать услугу</button>
+            </div>
         </section>
         <!--secctin2-->
-        <section>
-            <ul class="features">
-                <li class="features-list">
-                    <h3 class="features-title">Внимание к деталям</h3>
-                    <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li class="features-list">
-                    <h3 class="features-title">Пунктуальность</h3>
-                    <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="features-list">
-                    <h3 class="features-title">Планирование</h3>
-                    <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="features-list">
-                    <h3 class="features-title">Современные технологии</h3>
-                    <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+        <section class="section">
+            <div class="container">
+                <ul class="features">
+                    <li class="features-list">
+                        <h3 class="features-title">Внимание к деталям</h3>
+                        <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="features-list">
+                        <h3 class="features-title">Пунктуальность</h3>
+                        <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="features-list">
+                        <h3 class="features-title">Планирование</h3>
+                        <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="features-list">
+                        <h3 class="features-title">Современные технологии</h3>
+                        <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--secctin3-->
-        <section>
-            <h2 class="subtitel-big">Чем мы занимаемся</h2>
-            <ul class="work-specifications-list">
-                <li class="work-specifications-item"><img src=./image/box1.jpg alt="back-end" width=370>
-                </li>
-                <li class="work-specifications-item"><img src=./image/box2.jpg alt="front-end" width=370></li>
-                <li class="work-specifications-item"><img src=./image/box3.jpg alt="design" width=370></li>
-            </ul>
+        <section class="section">
+            <div class="container">
+                <h2 class="subtitel-big">Чем мы занимаемся</h2>
+                <ul class="work-specifications-list">
+                    <li class="work-specifications-item"><img src=./image/box1.jpg alt="back-end" width=370>
+                    </li>
+                    <li class="work-specifications-item"><img src=./image/box2.jpg alt="front-end" width=370></li>
+                    <li class="work-specifications-item"><img src=./image/box3.jpg alt="design" width=370></li>
+                </ul>
+            </div>
         </section>
         <!--secctin4-->
-        <section>
-            <h2 class="subtitel-big">Наша команда</h2>
-            <ul class="team-gallery">
+        <section class="section team-bg">
+            <div class="container">
+                <h2 class="subtitel-big">Наша команда</h2>
+                <ul class="team-gallery">
 
-                <li class="team-gallery-item"><img src=./image/teamcard1.jpg alt="teammate" width=270>
-                    <div>
-                        <h3 class="team-gallery-member">Игорь Демьяненко</h3>
-                        <p class="team-gallery-text">Product Designer</p>
-                    </div>
-                </li>
-                <li class="team-gallery-item"><img src=./image/teamcard2.jpg alt="teammate" width=270>
-                    <div>
-                        <h3 class="team-gallery-member">Ольга Репина</h3>
-                        <p class="team-gallery-text">Frontend Developer</p>
-                    </div>
-                </li>
-                <li class="team-gallery-item"><img src=./image/teamcard3.jpg alt="teammate" width=270>
-                    <div>
-                        <h3 class="team-gallery-member">Николай Тарасов</h3>
-                        <p class="team-gallery-text">Marketing</p>
-                    </div>
-                </li>
-                <li class="team-gallery-item"><img src=./image/teamcard4.jpg alt="teammate" width=270>
-                    <div>
-                        <h3 class="team-gallery-member">Михаил Ермаков</h3>
-                        <p class="team-gallery-text">UI Designer</p>
-                    </div>
-                </li>
+                    <li class="team-gallery-item"><img src=./image/teamcard1.jpg alt="teammate" width=270>
+                        <div class="border-name">
+                            <h3 class="team-gallery-member">Игорь Демьяненко</h3>
+                            <p class="team-gallery-text">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-gallery-item"><img src=./image/teamcard2.jpg alt="teammate" width=270>
+                        <div class="border-name">
+                            <h3 class="team-gallery-member">Ольга Репина</h3>
+                            <p class="team-gallery-text">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-gallery-item"><img src=./image/teamcard3.jpg alt="teammate" width=270>
+                        <div class="border-name">
+                            <h3 class="team-gallery-member">Николай Тарасов</h3>
+                            <p class="team-gallery-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-gallery-item"><img src=./image/teamcard4.jpg alt="teammate" width=270>
+                        <div class="border-name">
+                            <h3 class="team-gallery-member">Михаил Ермаков</h3>
+                            <p class="team-gallery-text">UI Designer</p>
+                        </div>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
         </section>
     </main>
     <!--footer-->
@@ -111,11 +122,13 @@
             <li>
                 <p class="address-light">г. Киев, пр-т Леси Украинки, 26</p>
             </li>
-            <li class="contact-link-light">
-                <a href="info@devstudio.com"> info@devstudio.com</a> </li>
-            <li class="contact-link-light">
-                <a href="+380961111111"> +38 096 111 11 11</a></li>
+            <li>
+                <a class="contact-link-light" href="info@devstudio.com"> info@devstudio.com </a></li>
+            <li>
+                <a class="contact-link-light" href="+380961111111"> +38 096 111 11 11</a></li>
         </ul>
+
+
 
     </footer>
 </body>

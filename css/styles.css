@@ -358,3 +358,7 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+
+.porfolio-bg {
+    background: #E5E5E5;
+}
